@@ -5,12 +5,12 @@ import img2 from '../assets/download (12).jpg'
 import img3 from '../assets/download (14).jpg'
 
 const products = [
-  { id: 1, name: 'Modern Blazer', price: 490000, status: 'In stock', image: img1 },
-  { id: 2, name: 'Summer Shirt', price: 790000, status: 'In stock', image: img2 },
-  { id: 3, name: 'Denim Jeans', price: 440000, status: 'Limited', image: img3 },
-  { id: 4, name: 'Leather Boots', price: 890000, status: 'In stock', image: img1 },
-  { id: 5, name: 'Silk Dress', price: 350000, status: 'Limited', image: img2 },
-  { id: 6, name: 'Classic Hat', price: 420000, status: 'In stock', image: img3 },
+  { id: 1, name: 'Modern Blazer', price: 490000, image: img1 },
+  { id: 2, name: 'Summer Shirt', price: 790000, image: img2 },
+  { id: 3, name: 'Jeans', price: 440000, image: img3 },
+  { id: 4, name: 'Summer Set', price: 890000, image: img1 },
+  { id: 5, name: 'Silk Dress', price: 350000, image: img2 },
+  { id: 6, name: 'Hat', price: 420000, image: img3 },
 ]
 
 function ProductList() {

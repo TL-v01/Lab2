@@ -12,9 +12,6 @@ function ProductCard({ product, isAdded, onAdd }) {
           <h5 className="card-title">{product.name}</h5>
           <p className="card-text mb-2 text-muted">{product.price.toLocaleString('vi-VN')} VND</p>
           <p className="card-text mb-3">
-            <span className={`badge ${product.status === 'In stock' ? 'bg-success' : 'bg-warning text-dark'}`}>
-              {product.status}
-            </span>
           </p>
           <button type="button" className={buttonClass} onClick={() => onAdd(product.id)}>
             {buttonText}

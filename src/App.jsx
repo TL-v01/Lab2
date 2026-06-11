@@ -19,6 +19,7 @@ function App() {
             <a className='navbar-brand' href='#'>Contact</a>
             <BsCartFill className="ms-auto" />
           </div>
+          <button className="btn btn-outline-primary">Login</button>
         </nav>
       </div>
 
